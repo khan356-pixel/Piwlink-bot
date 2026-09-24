@@ -51,7 +51,6 @@ suppliers = {
     "Thika": [],
     "Limuru": []
 }
-}
 
 print("Welcome to PIWLink 💧")
 print("Connect with trusted water suppliers near you.")
