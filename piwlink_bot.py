@@ -141,7 +141,7 @@ def order_water():
         conn.close()
         return
 
-    water_cost = price * litres
+    water_cost = (price / 1000) * litres
     total_cost = water_cost + delivery_fee
 
     print("\n===== ORDER SUMMARY =====")
